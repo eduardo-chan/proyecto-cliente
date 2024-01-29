@@ -82,9 +82,9 @@ export default {
     methods: {
         submitForm() {
             if (this.isValidForm()) {
-                // Aquí puedes enviar los datos del formulario
+                //envío de datos
                 alert('Formulario enviado correctamente.');
-                this.formError = ''; // Reiniciar el mensaje de error
+                this.formError = ''; // se reinicia el msj de error
             } else {
                 this.formError = alert('Formulario no enviado, por favor verifica los datos.');
             }
@@ -104,18 +104,18 @@ export default {
                 return false;
             }
 
-            // Validar correo electrónico
+            //validar email
             const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
             if (!emailRegex.test(this.email)) {
                 return false;
             }
 
-            // Validar número telefónico
+            //validar teléfono
             if (this.telefono.length !== 10) {
                 return false;
             }
 
-            // Validar tamaño de la fotografía
+            //validar tamaño de la foto
             if (this.foto && this.foto.size > 3 * 1024 * 1024) {
                 return false;
             }
