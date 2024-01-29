@@ -12,8 +12,8 @@
       return {
         items2: [
         {
-            text: "Inicio LandPage",
-            to: { name: "inicio" },
+            text: "Main",
+            to: { name: "main" },
           },
           {
             text: "Rentar espacio",

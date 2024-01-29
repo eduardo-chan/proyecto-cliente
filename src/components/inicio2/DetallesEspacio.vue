@@ -12,8 +12,8 @@
       return {
         items2: [
         {
-            text: "Inicio LandPage",
-            to: { name: "inicio" },
+            text: "Main",
+            to: { name: "main" },
           },
           {
             text: "Rentar espacio",
@@ -21,11 +21,11 @@
           },
           {
             text: "Catálogo de espacios",
-            active: true,
+            to: { name: "catalogoespacios" },
           },
           {
             text: "Detalles de espacio",
-            to: { name: "detallesespacio" },
+            active: true,
           },
         ],
       };

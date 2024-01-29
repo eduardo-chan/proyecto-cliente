@@ -17,34 +17,24 @@
     <b-row>
       <b-col>
         <div>
-          <b-sidebar id="sidebar-border" sidebar-class="border-right border-danger" z-index="-1" no-close-on-backdrop
+          <!-- //z-index="-1" -->
+          <b-sidebar id="sidebar-border" sidebar-class="border-right border-danger"  no-close-on-backdrop
             no-close-on-route-change no-header shadow visible bg-variant="dark" width="15%">
             <b-nav vertical class="pt-5">
               <b-nav-item>
                 <b-link :to="{ name: 'inicio' }"> Inicio LandPage</b-link>
               </b-nav-item>
-              <b-nav-item>
-                <b-link :to="{ name: 'rentatuespacio' }"> Renta tu Espacio</b-link>
-              </b-nav-item>
-              <b-nav-item>
-                <b-link :to="{ name: 'informacionespacio' }"> Información de espacio</b-link>
-              </b-nav-item>
-              <b-nav-item>
-                <b-link :to="{ name: 'ofertarespacio' }"> Ofertar espacio</b-link>
-              </b-nav-item>
             </b-nav>
+
             <b-nav vertical class="pt-5">
               <b-nav-item>
-                <b-link :to="{ name: 'inicio' }"> Inicio LandPage</b-link>
+                <b-link :to="{ name: 'main' }"> Main</b-link>
               </b-nav-item>
+            </b-nav>
+
+            <b-nav vertical class="pt-5">
               <b-nav-item>
-                <b-link :to="{ name: 'rentarespacio' }"> Rentar espacio</b-link>
-              </b-nav-item>
-              <b-nav-item>
-                <b-link :to="{ name: 'catalogoespacios' }"> Catálogo de espacios</b-link>
-              </b-nav-item>
-              <b-nav-item>
-                <b-link :to="{ name: 'detallesespacio' }"> Detalles de espacio</b-link>
+                <b-link :to="{ name: 'form' }"> Formulario</b-link>
               </b-nav-item>
             </b-nav>
           </b-sidebar>

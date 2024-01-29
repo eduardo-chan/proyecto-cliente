@@ -2,7 +2,6 @@
   <div>
     <b-container>
       <b-breadcrumb :items="items"></b-breadcrumb>
-      <b-breadcrumb :items="items2"></b-breadcrumb>
     </b-container>
   </div>
 </template>
@@ -27,24 +26,6 @@ export default {
         {
           text: "Ofertar espacio",
           to: { name: "ofertarespacio" },
-        },
-      ],
-      items2: [
-      {
-          text: "Inicio LandPage",
-          active: true,
-        },
-        {
-          text: "Rentar espacio",
-          to: { name: "rentarespacio" },
-        },
-        {
-          text: "Catálogo de espacios",
-          to: { name: "catalogoespacios" },
-        },
-        {
-          text: "Detalles de espacio",
-          to: { name: "detallesespacio" },
         },
       ],
     };
