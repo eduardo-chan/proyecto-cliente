@@ -171,6 +171,7 @@ label {
     margin-bottom: 5px;
 }
 
+/* es para que se vea el input de color blanco */
 input[type="text"],
 input[type="date"],
 input[type="email"],
